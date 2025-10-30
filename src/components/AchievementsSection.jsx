@@ -3,6 +3,7 @@ import React from 'react';
 import { useInView } from '../hooks/useInView';
 import { Trophy, Star } from 'lucide-react';
 
+
 const AchievementCard = ({ title, description, image, delay }) => {
   const [ref, isInView] = useInView({ threshold: 0.3 });
   
@@ -35,19 +36,19 @@ const AchievementsSection = () => {
     { 
       title: "IGA Award from kangana Ranaut", 
       description: "Recognized for excellence in mentorship and contribution to the trading community.", 
-      image: 'src/assets/kangana_x_mayank .jpg', 
+      image: '/kangana_x_mayank .jpg', 
       delay: "delay-100" 
     },
     { 
       title: "Strong Core Team ", 
       description: "The driving force behind Grow Capitalist — our dedicated team of investors, analysts, and mentors working together to build the next generation of successful traders.", 
-      image: 'src/assets/strong_core_team.jpg', 
+      image: '/strong_core_team.jpg', 
       delay: "delay-300" 
     },
      { 
       title: "Invited to Dubai Forex Expo 2023 ", 
       description: "Represented Grow Capitalist on an international stage, sharing insights and strategies with leading global brokers and traders.", 
-      image: 'src/assets/forex_expo.png', 
+      image: '/forex_expo.png', 
       delay: "delay-300" 
     }
     // Add more achievements here if available
