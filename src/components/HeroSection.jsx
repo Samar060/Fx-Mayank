@@ -43,7 +43,7 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <a href="https://t.me/+C1rweHQHR6IzOGNlw" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/+_cwICfdPWxg2YmQ1" target="_blank" rel="noopener noreferrer">
             <button 
               className="mt-8 px-10 py-4 text-lg font-bold rounded-lg 
                          bg-yellow-500 text-gray-900 transition duration-300 ease-in-out 
