@@ -5,6 +5,8 @@ import HeroSection from './components/HeroSection';
 import AchievementsSection from './components/AchievementsSection';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 // Note: You must configure Tailwind to enable custom animations (animate-in, delays)
 
 const App = () => {
@@ -22,6 +24,8 @@ const App = () => {
       <footer className="bg-gray-900 border-t border-gray-700 p-4 text-center text-xs text-gray-500">
         &copy; {new Date().getFullYear()} Mayank Gupta Trading. | Trading Forex is risky. Please consult a financial advisor.
       </footer>
+            <SpeedInsights />
+
     </div>
   );
 };
